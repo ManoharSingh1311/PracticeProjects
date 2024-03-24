@@ -1,0 +1,28 @@
+Author: Manohar Singh(https://github.com/mannu1311/Basic_Projects)
+
+Spotify Web Player: Music For Everyone
+
+Overview:
+    This project presents a responsive web player interface inspired by Spotify, crafted to deliver seamless 
+    access to music and podcasts. Built entirely using HTML and CSS, it features a sleek sidebar navigation,
+     dynamic card layouts, and an intuitive music player section.
+
+Key Features:
+       1. Responsive Design: Ensures optimal viewing across diverse devices.
+       2. Dynamic Sidebar: Facilitates easy navigation through Home and Search sections.
+       3. Personalized Library: Offers options to create playlists and explore podcasts.
+       4. Featured Content: Highlights recently played tracks, trending content, and feature charts.
+       5. Interactive Music Player: Provides controls for playback, volume adjustment, and track progress.
+Technologies Used:
+    HTML5 and CSS3: Core technologies for structure, styling, and layout.
+    Font Awesome Icons: Enhances visual appeal with iconography for navigation and controls.
+
+Usage:
+    Clone the repository to your local machine.
+    Open index.html in your web browser to explore the Spotify-inspired web player.
+    Navigate through sidebar options, library features, and music player controls.
+    Customize and extend the project for a personalized music streaming experience.
+
+Credits:
+    Font Awesome: Icon font library for incorporating icons into the interface design.
+    Unsplash: Source of images used for card thumbnails and album covers.

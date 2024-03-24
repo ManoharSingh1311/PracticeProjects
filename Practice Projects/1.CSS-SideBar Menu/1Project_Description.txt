@@ -1,0 +1,34 @@
+   Author: Manohar Singh(https://github.com/mannu1311/Basic_Projects)
+      
+       CSS Project: Sidebar Menu with Animation
+
+Overview:
+        This repository contains code for a stylish sidebar menu created using HTML and CSS.The sidebar menu 
+        features smooth animations and transitions, making it visually appealing and user-friendly. It can be
+         easily integrated into web projects to enhance navigation and user experience.
+
+Features:
+        1.Responsive Design: The sidebar menu adapts smoothly to different screen sizes, ensuring a 
+        seamless experience across devices.
+        2.Custom Icons: Utilizes icons from Font Awesome and Google Material Icons to enhance visual appeal
+         and clarity.
+        3.Hover Effects: Interactive hover effects on menu items and social media icons add flair to the design.
+Animation: 
+        Incorporates CSS animations and transitions for smooth opening and closing of the sidebar menu.
+
+Technologies Used:
+        HTML5: Used for structuring the webpage and defining its content.
+        CSS3: Employed for styling the elements, including layout, colors, fonts, and animations.
+        Font Awesome & Google Material Icons: Icon fonts used for menu icons and social media icons.
+        Responsive Design: Ensures optimal viewing and interaction experience across a wide range of devices.
+
+Usage:
+        Clone the repository to your local machine.
+        Open the index.html file in your web browser to view the sidebar menu.
+        Customize the menu items, icons, and styles to suit your project requirements.
+        Integrate the sidebar menu into your web project to enhance navigation and aesthetics.
+        
+Credits:
+        Font Awesome: Icon font library used for menu icons and social media icons.
+        Google Fonts: Provides the 'Poppins' font used for text elements in the sidebar menu.
+        Unsplash: Source of the background image used in the main box.
