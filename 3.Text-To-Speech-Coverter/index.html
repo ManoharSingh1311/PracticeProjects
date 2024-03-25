@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-To-Speech Converter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center; /* Center align the content */
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        #container {
+            max-width: 600px;
+            margin: 50px auto; /* Center the container */
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #textbox {
+            width: 100%;
+            height: 150px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: none;
+        }
+        #speakbox {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #speakbox:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Text-To-Speech</h1>
+        <textarea id="textbox" name="textbox" placeholder="Enter text to speak..." cols="50" rows="4"></textarea>
+        <button id="speakbox" onclick="speak()">Speak</button>
+    </div>
+
+    <script>
+        function speak() {
+            let synth = window.speechSynthesis;
+            let text = document.getElementById('textbox').value.trim();
+            if (text !== '') {
+                let voice = new SpeechSynthesisUtterance(text);
+                synth.speak(voice);
+            } else {
+                alert('Please enter some text to speak.');
+            }
+        }
+    </script>
+</body>
+</html>
