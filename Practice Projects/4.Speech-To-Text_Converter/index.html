@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech-To-Text Converter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        #container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #textbox {
+            width: 100%;
+            height: 150px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: none;
+        }
+        #recordButton {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #recordButton:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Speech-To-Text</h1>
+        <textarea id="textbox" name="textbox" placeholder="Spoken words will appear here..." cols="50" rows="4" readonly></textarea>
+        <button id="recordButton">Start Recording</button>
+    </div>
+
+    <script>
+        window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        const recognition = new SpeechRecognition();
+        recognition.interimResults = true;
+
+        recognition.addEventListener('result', e => {
+            const transcript = Array.from(e.results)
+                .map(result => result[0].transcript)
+                .join('');
+
+            document.getElementById('textbox').value = transcript;
+        });
+
+        recognition.addEventListener('end', () => {
+            recognition.start();
+        });
+
+        document.getElementById('recordButton').addEventListener('click', () => {
+            if (recognition.start) {
+                recognition.start();
+                document.getElementById('recordButton').textContent = 'Stop Recording';
+            } else {
+                recognition.stop();
+                document.getElementById('recordButton').textContent = 'Start Recording';
+            }
+        });
+    </script>
+</body>
+</html>
