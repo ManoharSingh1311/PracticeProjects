@@ -1,0 +1,31 @@
+By: Manohar Singh(https://github.com/mannu1311/Basic_Projects)
+Date -: 26 March 2024
+
+## Project: To-Do List
+
+### Overview:
+This repository contains code for a simple To-Do List web application created using HTML, CSS, and JavaScript. The application allows users to add tasks to a list and mark them as completed or delete them. It provides a clean and intuitive user interface for managing tasks effectively.
+
+### Features:
+1. **Add Tasks**: Users can input tasks into the text field and click the "Add" button to add them to the list.
+2. **Task Management**: Each task is displayed as a list item, along with an option to mark it as completed or delete it.
+3. **Dynamic Updates**: The list dynamically updates as tasks are added, completed, or deleted without the need for page refresh.
+4. **Error Handling**: Alerts users if they attempt to add an empty task.
+5. **User-Friendly Interface**: Designed with a clean layout and responsive design for optimal user experience across devices.
+
+### Technologies Used:
+- **HTML**: Used for structuring the webpage and defining its content.
+- **CSS**: Employed for styling the elements, including layout, colors, fonts, and animations.
+- **JavaScript**: Implemented functionality for adding tasks, marking tasks as completed, and deleting tasks.
+- **Font Awesome**: Icon font library used for the trash icon next to each task for deletion.
+
+### Usage:
+1. Clone the repository to your local machine.
+2. Open the index.html file in your web browser to access the To-Do List application.
+3. Enter tasks into the input field and click the "Add" button to add them to the list.
+4. Click the checkbox next to a task to mark it as completed, or click the trash icon to delete it.
+5. Enjoy managing your tasks efficiently with this simple To-Do List application!
+
+### Credits:
+- **Font Awesome**: Icon font library used for the trash icon next to each task for deletion.
+
