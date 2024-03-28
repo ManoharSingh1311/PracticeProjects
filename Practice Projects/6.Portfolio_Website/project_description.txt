@@ -1,8 +1,9 @@
 Title: Portfolio Website Using HTML, CSS and JavaScript
 
 By: Manohar Singh(https://github.com/mannu1311)
+Contact : burathimannu@gmail.com
 
-Date: 27 March 2024
+Date: 28 March 2024
 
 Description:
     Designed with simplicity and elegance, this portfolio demonstrates my proficiency in web development and 
