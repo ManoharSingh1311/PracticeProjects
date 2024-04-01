@@ -1,0 +1,33 @@
+Title: Analog Clock Website Using HTML, CSS, and JavaScript
+
+By: Manohar Singh(https://github.com/mannu1311)
+
+Date: 27 March 2024
+
+Description:
+Experience the elegance of a classic analog clock brought to life on your screen! This website showcases an
+analog clock built using HTML, CSS, and JavaScript, providing a visually pleasing and interactive experience.
+
+Features:
+
+    1.Real-time Clock: Accurate representation of current time with hour, minute, and second hands.
+    2.Dynamic Styling: Stylish design with customizable CSS for a modern look.
+    3.Responsive Design: Ensures optimal viewing experience across devices.
+    4.Copyright Notice: Includes copyright information and rights reserved.
+
+Usage:
+
+    1.Simply open the website to view the analog clock.
+    2.The clock hands move in real-time to reflect the current time.
+    3.Enjoy the elegant design and smooth animations.
+
+Future Enhancements:
+
+    1.Add additional clock features such as time zone selection or alarm functionality.
+    2.Incorporate user preferences for customizing the clock appearance.
+    3.Integrate interactive elements for user engagement.
+
+Contributions:
+Contributions for improvements are welcome through pull requests.
+
+Feel free to contact me: burathimannu@gmail.com
