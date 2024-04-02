@@ -1,0 +1,32 @@
+Title: "Cat-Fact-Fetcher: Using API CALLS"
+
+By: Manohar Singh (https://github.com/mannu1311)
+
+Date: April 1, 2024
+
+Description:
+	Explore interesting cat facts easily on our "Cat-Fact-Fetcher" website. 
+	This beginner-friendly project teaches you how to make API calls using HTML, CSS, and JavaScript
+Features:
+
+1.Cat Facts: Get instant access to a variety of cat trivia with just a click.
+2.Stylish Design: Modern interface with cat-themed elements for a charming touch.
+3.Easy Access: Enjoy a seamless browsing experience across all devices.
+
+-
+Future Enhancements:
+
+1.Interactive Quizzes: Test your cat knowledge with fun quizzes and challenges.
+2.Category Sorting: Organize facts into breeds, behavior, and more for easy browsing.
+3.Community Engagement: Create a space for cat lovers to share stories and tips.
+
+Contributions:
+
+Contributions to enhance the "Cat-Fact-Fetcher" are welcome via pull requests. Let's make cat appreciation accessible to everyone!
+
+Contact: burathimannu@gmail.com
+
+
+
+
+
