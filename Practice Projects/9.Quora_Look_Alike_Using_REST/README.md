@@ -1,39 +1,41 @@
-# Title: "Quora Look Alike (Kora) : Using RESTful principles"
+# Quora Look Alike (Kora) : Using RESTful Principles
 
-By: Manohar Singh (https://github.com/mannu1311)
+**By:** [Manohar Singh](https://github.com/mannu1311)  
+**Date:** July 18, 2024
 
-Date: July 18, 2024
+## Description
 
-**Description**:
-	Discover and manage posts similar to Quora with our "Quroa Look Alike (Kora)" web application.
-	This project showcases RESTful operations for creating, reading, updating, and deleting posts using Express.js and EJS templates. 
-	Ideal for learning backend development and CRUD operations.
+Discover and manage posts similar to Quora with our "Quora Look Alike (Kora)" web application. This project showcases RESTful operations for creating, reading, updating, and deleting posts using Express.js and EJS templates. Ideal for learning backend development and CRUD operations.
 
-**Files and Directories**: 
-index.js: Main server file for routing and configuration.
-package.json: Project metadata and dependencies configuration.
-package-lock.json: Exact dependency versions for consistent installs.
-project-description.txt: Overview of the project's purpose and features.
-views/: Contains EJS templates for rendering HTML views (edit.ejs, new.ejs, index.ejs, show.ejs).
-public/: Holds static assets such as CSS (style.css).
+## Files and Directories
 
-Note: The node_modules directory is not included in this repository to keep it lightweight. 
-Dependencies can be installed locally using _npm install_.
+- **index.js:** Main server file for routing and configuration.
+- **package.json:** Project metadata and dependencies configuration.
+- **package-lock.json:** Exact dependency versions for consistent installs.
+- **project-description.txt:** Overview of the project's purpose and features.
+- **views/:** Contains EJS templates for rendering HTML views (`edit.ejs`, `new.ejs`, `index.ejs`, `show.ejs`).
+- **public/:** Holds static assets such as CSS (`style.css`).
 
-**Features:**
-1.Create Posts: Share your thoughts with a username and content.
-2.Read Posts: Explore all posts or view detailed post content.
-3.Update Posts: Modify post content seamlessly with PATCH requests.
-4.Delete Posts: Remove posts securely with DELETE requests.
+**Note:** The `node_modules` directory is not included in this repository to keep it lightweight. Dependencies can be installed locally using `npm install`.
 
+## Features
 
-**Future Enhancements:**
-1.User Authentication: Implement user login and authentication for secure post management.
-2.Sorting and Filtering: Organize posts by date, user, or category for better navigation.
-3.Search Functionality: Enable search to find specific posts quickly.
-4.Enhanced UI: Improve user interface with responsive design and interactive elements.
+1. **Create Posts:** Share your thoughts with a username and content.
+2. **Read Posts:** Explore all posts or view detailed post content.
+3. **Update Posts:** Modify post content seamlessly with PATCH requests.
+4. **Delete Posts:** Remove posts securely with DELETE requests.
 
-**Contributions**:
-Contributions to enhance "Quroa Look Alike (Kora)" are welcome via pull requests. Let's create an engaging platform for managing posts efficiently!
+## Future Enhancements
 
-**Contact**: burathimannu@gmail.com
+1. **User Authentication:** Implement user login and authentication for secure post management.
+2. **Sorting and Filtering:** Organize posts by date, user, or category for better navigation.
+3. **Search Functionality:** Enable search to find specific posts quickly.
+4. **Enhanced UI:** Improve user interface with responsive design and interactive elements.
+
+## Contributions
+
+Contributions to enhance "Quora Look Alike (Kora)" are welcome via pull requests. Let's create an engaging platform for managing posts efficiently!
+
+## Contact
+
+For questions or feedback, contact me at burathimannu@gmail.com.
